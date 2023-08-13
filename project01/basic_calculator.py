@@ -7,57 +7,57 @@ while True:
         print("--------------------------------")
         print("Você escolheu ADIÇÃO!\nDigite um número:")
         num1 = int(input())
-        print("--------------------------------")
+        print("---------------------------------")
         print("Digite outro número:")
         num2 = int(input())
         calc = num1 + num2
-        print("--------------------------------")
+        print("---------------------------------")
         print(f"RESULTADO: {calc}")
-        print("--------------------------------")
+        print("---------------------------------")
 
     if operation == 2 :
-        print("--------------------------------")
+        print("---------------------------------")
         print("Você escolheu SUBTRAÇÃO!\nDigite um número:")
         num1 = int(input())
-        print("--------------------------------")
+        print("---------------------------------")
         print("Digite outro número:")
         num2 = int(input())
         calc = num1 - num2
-        print("--------------------------------")
+        print("---------------------------------")
         print(f"RESULTADO: {calc}")
-        print("--------------------------------")
+        print("---------------------------------")
 
     if operation == 3 :
-        print("--------------------------------")
+        print("---------------------------------")
         print("Você escolheu MULTIPLICAÇÃO!\nDigite um número:")
         num1 = int(input())
-        print("--------------------------------")
+        print("---------------------------------")
         print("Digite outro número:")
         num2 = int(input())
         calc = num1 * num2
-        print("--------------------------------")
+        print("---------------------------------")
         print(f"RESULTADO: {calc}")
-        print("--------------------------------")
+        print("---------------------------------")
 
     if operation == 4 :
-        print("--------------------------------")
+        print("---------------------------------")
         print("Você escolheu DIVISÃO!\nDigite um número:")
         num1 = int(input())
-        print("--------------------------------")
+        print("---------------------------------")
         print("Digite outro número:")
         num2 = int(input())
         calc = num1 / num2
-        print("--------------------------------")
+        print("---------------------------------")
         print(f"RESULTADO: {calc}")
-        print("--------------------------------")
+        print("---------------------------------")
 
     if operation >= 5:
         print("Modo de operação inválida!\nDigite um modo de operação válido!")
-        print("--------------------------------")
+        print("---------------------------------")
 
     if operation == 0:
         print("Modo de operação inválida!\nDigite um modo de operação válido!".upper())
-        print("--------------------------------")
+        print("---------------------------------")
 
     resposta = input("Deseja fazer outro cálculo? (s/n): ")
     if resposta.lower() != "s":
