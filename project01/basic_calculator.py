@@ -1,8 +1,5 @@
-from IPython.display import clear_output
-
-
-while True:
-
+# FUNÇÕES DO CÓDIGO
+def inicio():
   print("Digite: ")
   print(" ")
   print("1 para Soma")
@@ -12,9 +9,8 @@ while True:
   print("5 para Exponenciação")
   print(" ")
 
-  modo = int(input())
-
-  if modo == 1:  
+def soma():
+    
     print("====================")
     print("Você escolheu SOMA!")
     print("====================")
@@ -30,7 +26,7 @@ while True:
     print("{} + {} = {}".format(n1, n2, resultado))
     print("====================")
 
-  elif modo == 2:  
+def subtracao():
     print("====================")
     print("Você escolheu SUBTRAÇÃO!")
     print("====================")
@@ -46,7 +42,7 @@ while True:
     print("{} - {} = {}".format(n1, n2, resultado))
     print("====================")
 
-  elif modo == 3:  
+def multiplicacao():
     print("====================")
     print("Você escolheu MULTIPLICAÇÃO!")
     print("====================")
@@ -62,7 +58,7 @@ while True:
     print("{} x {} = {}".format(n1, n2, resultado))
     print("====================")
 
-  elif modo == 4:  
+def divisao():
     print("====================")
     print("Você escolheu DIVISÃO!")
     print("====================")
@@ -78,7 +74,7 @@ while True:
     print("{} / {} = {}".format(n1, n2, resultado))
     print("====================")
 
-  elif modo == 5:  
+def exponenciacao():
     print("====================")
     print("Você escolheu EXPONENCIAÇÃO!")
     print("====================")
@@ -94,8 +90,26 @@ while True:
     print("{} ^ {} = {}".format(base, expoente, resultado))
     print("====================")
 
-    clear_output(wait=True)
+# ESTRUTURA DE REPETIÇÃO FAZENDO USO DAS FUNÇÕES 
+while True:
+  inicio()
+  modo = int(input())
 
+  if modo == 1:
+    soma()
+
+  elif modo == 2:  
+    subtracao()
+
+  elif modo == 3:  
+     multiplicacao()
+
+  elif modo == 4:  
+    divisao()
+
+  elif modo == 5:  
+    exponenciacao()
+    
   resposta = input("Deseja fazer outro cálculo? (s/n): ")
   if resposta.lower() != 's':
     break
