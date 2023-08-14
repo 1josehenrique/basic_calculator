@@ -1,6 +1,6 @@
 <h1> Calculadora Interativa 🧮 </h1>
 
-🔢 Um simples código de calculadora interativa criado usando Python no Google Colab!
+🔢 Um simples código de calculadora interativa criado usando Python no VS Code!
 
 <h2>✨ Recursos:</h2>
 
@@ -8,7 +8,7 @@ Realiza operações básicas de adição, subtração, multiplicação, divisão
 Interface amigável para selecionar o tipo de operação e inserir os números.
 Exibe o resultado e permite que você faça cálculos adicionais.
 
-<h2>💻 Código do Colab:</h2>
+<h2>💻 Código do VS Code:</h2>
 O código acima é uma implementação interativa que permite que você selecione o tipo de operação e insira os números para calcular o resultado desejado. Ele usa a função **input()** para receber as entradas do usuário e imprime os resultados com formatação adequada.
 
 <h2>🚀 Experimente:</h2>
