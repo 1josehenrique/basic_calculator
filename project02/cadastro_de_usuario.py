@@ -9,7 +9,7 @@ def info_usuario():
     dia = (datetime.now().day)
     mes = (datetime.now().month)
     ano = (datetime.now().year)
-    cartoes = ['R$50,00','R$250,00','R$120,00']
+    cartoes = ['R$50,00','R$250,00','R$125,00']
     cartao = (random.choice(cartoes))
     aniversario = datetime.strptime(input('Qual a data do seu aniversário?\n'),'%d/%m/%Y')
     print("====================")
